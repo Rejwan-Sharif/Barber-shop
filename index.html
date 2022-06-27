@@ -22,8 +22,8 @@
     <h1>Hair Style</h1>
     <p>Style your hair is style your life</p>
     <div class="banner-btn">
-        <a href="#"><span></span>Find Out</a>
-        <a href="#"><span></span>Read More</a>
+        <a href="#feature"><span></span>Find Out</a>
+        <a href="#service"><span></span>Read More</a>
     </div>
    </div> 
  </section> 
@@ -33,11 +33,11 @@
  <div id="sidenav">
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Testimonial</a></li>
-            <li><a href="#">Meet Us</a></li>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#feature">Features</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#footer">Meet Us</a></li>
         </ul>
     </nav>
  </div>
@@ -215,40 +215,7 @@
 
 
 
-<script>
-    var menubtn = document.getElementById("menubtn")
-    var sidenav = document.getElementById("sidenav")
-    var menu = document.getElementById("menu")
-
-    sidenav.style.right ="-200px";
-
-    menubtn.onclick= function(){
-        if(sidenav.style.right =="-200px"){
-            sidenav.style.right = "0"; 
-            menu.src = "./Barber_Shop_img/close.png";
-        }
-        else {
-            sidenav.style.right ="-200px";
-            menu.src = "./Barber_Shop_img/menu.png";
-        }
-    }
-
-//  var scroll = new SmoothScroll(a'[href*="#"]' ,{
-//     speed: 1000,
-//     speedAsDuration:true
-//  })
-
-</script>
-
-
-<script>
-   var loder = document.getElementById("preloder");
-   
-   window.addEventListener("load", function(){
-    loder.style.display = "none"
-   })
-   
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
