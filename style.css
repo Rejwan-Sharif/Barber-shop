@@ -225,7 +225,7 @@ border: 1px solid #019587;
 
 #service{
    width: 100%; 
-   padding: 70px;
+   padding: 70px 0;
    background: aliceblue;
 }
 .service-box{
@@ -289,6 +289,9 @@ font-size: 14px;
     .single-service{
         flex-basis: 100%;
         margin-bottom: 30px;
+    }
+    .single-service img{
+        flex-basis: 100%;
     }
     .service-des p{
      font-size: 12px;
@@ -378,8 +381,7 @@ padding: 10px;
 margin-bottom: 20px;
 }
 .footer-right{
-    text-align: right;
-    
+    text-align: right;   
 }
 
 .footer-row h1{
@@ -432,6 +434,9 @@ margin-top: 20px;
     .footer-left .bx , .footer-right .bx{
         flex-basis: 100%;
         font-size: 14px;
+    }
+    .footer-right .bx{
+        display: inline-block;
     }
     .footer-img{
         top: 25%;
